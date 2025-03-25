@@ -32,7 +32,7 @@ jobs:
           <!DOCTYPE html>
           <html>
           <head>
-              <title>Télécharger SSP</title>
+              <title>Download SSP Shuffle</title>
               <style>
                   body {
                       font-family: Arial, sans-serif;
@@ -54,8 +54,8 @@ jobs:
               </style>
           </head>
           <body>
-              <h1>Télécharger SSP</h1>
-              <p>Choisissez votre système d'exploitation :</p>
+              <h1>Download SSP</h1>
+              <p>Choose your operating system:</p>
               <div class="download-buttons">
                   <a href="win" class="button">Windows</a>
                   <a href="mac" class="button">Mac</a>
@@ -70,10 +70,10 @@ jobs:
           <html>
           <head>
             <meta http-equiv="refresh" content="0; url=${WINDOWS_URL}" />
-            <title>Redirection Windows</title>
+            <title>Windows Redirection</title>
           </head>
           <body>
-            <p>Redirection en cours vers le téléchargement de la version Windows...</p>
+            <p>Redirecting to Windows version download...</p>
           </body>
           </html>
           EOF
@@ -84,10 +84,10 @@ jobs:
           <html>
           <head>
             <meta http-equiv="refresh" content="0; url=${MAC_URL}" />
-            <title>Redirection Mac</title>
+            <title>Mac Redirection</title>
           </head>
           <body>
-            <p>Redirection en cours vers le téléchargement de la version Mac...</p>
+            <p>Redirecting to Mac version download...</p>
           </body>
           </html>
           EOF
